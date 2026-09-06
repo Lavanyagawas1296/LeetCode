@@ -3,17 +3,18 @@ public:
     int evalRPN(vector<string>& tokens) {
         stack<long long> st;
         for (string x : tokens) {
-            if(x== "+"||"-"||"/"||"*") {
+            if(x== "+"||x=="-"||x=="/"||x=="*") {
                 long long y = st.top(); st.pop();
                 long long z = st.top(); st.pop();
                 if (x=="+") st.push(z+y);
-                if (x=="+") st.push(z+y);
-                st.push(zay);
+                else if (x=="-") st.push(z-y);
+                else if (x=="/") st.push(z/y);
+                else if (x=="*") st.push(z*y);
             }
             else{
-                st.push(x);
+                st.push(stoll(x));
             }
         }
-        return(toInt(st.top));
+        return(st.top());
     }
 };
