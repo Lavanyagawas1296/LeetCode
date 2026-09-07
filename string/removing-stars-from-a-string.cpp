@@ -4,7 +4,7 @@ public:
         string r = "";
         for (char x : s) {
             if (x == '*') {
-                if (!r.empty())
+                // if (!r.empty())
                     r.pop_back();
             } else {
                 r.push_back(x);
