@@ -1,10 +1,10 @@
 class Solution {
 public:
     bool backspaceCompare(string s, string t) {
-        long long r1="",r2="";
+        string r1="",r2="";
         for(char x : s){
             if(x=='#'){
-                if(!r1.empty());r1.pop_back();
+                if(!r1.empty()) r1.pop_back();
             }
             
             else{
@@ -13,7 +13,7 @@ public:
         }
         for(char x : t){
             if(x=='#'){
-                if(!r2.empty());r2.pop_back();
+                if(!r2.empty()) r2.pop_back();
 
             }
 
