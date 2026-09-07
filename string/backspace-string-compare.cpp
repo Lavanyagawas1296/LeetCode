@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool backspaceCompare(string s, string t) {
-        string r1="",r2="";
+        long long r1="",r2="";
         for(char x : s){
             if(x=='#'){
                 if(!r1.empty());r1.pop_back();
