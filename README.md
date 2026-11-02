@@ -76,7 +76,7 @@ this repo is me building that pattern library, one problem at a time.
 
 <div align="center">
 
-[🧩 leetcode profile](https://leetcode.com/u/lavanya_1296/) · [💼 github](https://github.com/Lavanyagawas1296)
+[🧩 leetcode profile](https://leetcode.com/u/lavanya__1296/) · [💼 github](https://github.com/Lavanyagawas1296)
 
 *somewhere between "why doesn't this work" and "wait, it actually works" — that's where the learning happens.*
 
